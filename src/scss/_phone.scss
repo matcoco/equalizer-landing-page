@@ -19,7 +19,19 @@
 
 @media screen and (min-width: $min-laptop) and (max-width: $max-laptop) {
     .container-phone{
-        @include pos-ab(25%, 0, 0, 30%, -55%, -50%);
+        @include pos-ab(20%, 0, 0, 30%, -55%, -50%);
+        
+        .container-phone-img {
+            width: 50%;
+            margin: auto;
+        }
+    }
+}
+
+
+@media screen and (min-width: $min-desktop) and (max-width: $max-desktop) {
+    .container-phone{
+        @include pos-ab(20%, 0, 0, 30%, -55%, -50%);
         
         .container-phone-img {
             width: 50%;

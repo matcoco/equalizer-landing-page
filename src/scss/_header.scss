@@ -1,13 +1,32 @@
-.container-header{
+.container-header {
     font-family: $font-family-principal;
     margin-bottom: 10em;
-    h1 {
-        width:80%;
-        margin-bottom: 0.8em;
-    };
 
-    p{
+    p {
         line-height: $line-heigth-tx;
         font-size: 1.01em;
+    }
+}
+
+@media screen and (max-width: $max-mobile) {
+    h1 {
+        width: 80%;
+        margin-bottom: 0.8em;
+    }
+}
+
+@media screen and (min-width: $min-tablet) and (max-width: $max-tablet) {
+    .container-header {
+        margin-bottom: 14em;
+
+        p {
+            width: 80%;
+        }
+
+        h1 {
+            width: 60%;
+            font-size: 3em;
+            margin-bottom: 0.8em;
+        }
     }
 }

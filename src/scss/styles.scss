@@ -10,19 +10,53 @@
 @import "_header";
 @import "_footer";
 
-.wrapper {
-    .section1 {
-        @include wrapper;
-    }
+.bkgrnd {
+    overflow-x: hidden;
 
-    @media screen and (min-width: 480px) {
+    .container-illustration1-nav {
+        .container-illustration1-nav-img {
+            img {
+                width: 70%;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $max-mobile) {
+    .wrapper {
         @include wrapper;
     }
 }
 
-.bkgrnd {
-    @media screen and (min-width: 360px) and (max-width :599px) {
-        @include background-image(-10%, -25%);
+@media screen and (max-width: $max-mobile) {
+    .section1 {
+        @include wrapper;
     }
- 
+
+    .container-illustration1-nav {
+        display: none;
+    }
+}
+
+@media screen and (min-width: $min-mobile) and (max-width: $max-mobile) {
+    .bkgrnd {
+        @include background-image("../../public/assets/bg-main-mobile.png", -10%, -25%);
+    }
+}
+
+@media screen and (min-width: $min-tablet) and (max-width: $max-tablet) {
+    .bkgrnd {
+        @include background-image("../../public/assets/bg-main-tablet.png", 70%, -40%);
+
+        .container-illustration1-nav {
+            position: absolute;
+            right: -120px;
+            top: -25px;
+        }
+    }
+
+    .section2 {
+        position: relative;
+        margin-bottom: 8em;
+    }
 }

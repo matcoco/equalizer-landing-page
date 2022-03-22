@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:display=swap");
+
+.container-card {
+    @include flex-center-col;
+    position: relative;
+    bottom:50px;
+    background-color: $rouge-clair;
+    max-width: 480px;
+    border-radius: $border-radius;
+    .wrap-card {
+        padding: 40px;
+
+        .container-title-card {
+            h1 {
+                color: $blanc;
+                margin-bottom: 10px;
+                font-family: $font-family-principal;
+            }
+        }
+
+        .container-content-card {
+            margin-bottom: 20px;
+            p {
+                color: $blanc;
+                line-height: $line-heigth-tx;
+                font-family: $font-family-principal;
+            }
+        }
+
+        .container-price-card {
+            @include flex;
+            align-items: center;
+            margin-bottom: 70px;
+            font-family: $font-family-principal;
+            p {
+                color: $blanc;
+            }
+
+            .price {
+                font-size: 2.7em;
+                font-weight: bold;
+                margin-right: 10px;
+            }
+        }
+    }
+}

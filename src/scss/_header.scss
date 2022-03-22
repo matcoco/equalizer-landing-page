@@ -1,0 +1,13 @@
+.container-header{
+    font-family: $font-family-principal;
+    margin-bottom: 10em;
+    h1 {
+        width:80%;
+        margin-bottom: 0.8em;
+    };
+
+    p{
+        line-height: $line-heigth-tx;
+        font-size: 1.01em;
+    }
+}

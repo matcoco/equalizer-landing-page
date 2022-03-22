@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:display=swap");
+*, html {
+  margin: 0;
+  padding: 0;
+}
+
+.container-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  bottom: 50px;
+  background-color: #fa7453;
+  max-width: 480px;
+  border-radius: 10px;
+}
+
+.container-card .wrap-card {
+  padding: 40px;
+}
+
+.container-card .wrap-card .container-title-card h1 {
+  color: #fcfaf9;
+  margin-bottom: 10px;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.container-card .wrap-card .container-content-card {
+  margin-bottom: 20px;
+}
+
+.container-card .wrap-card .container-content-card p {
+  color: #fcfaf9;
+  line-height: 130%;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.container-card .wrap-card .container-price-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 70px;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.container-card .wrap-card .container-price-card p {
+  color: #fcfaf9;
+}
+
+.container-card .wrap-card .container-price-card .price {
+  font-size: 2.7em;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.btn {
+  padding: 12px;
+  border: none;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.btn .container-img-btn {
+  margin-right: 10px;
+}
+
+.btn-apple {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #191826;
+  border-radius: 10px;
+  color: #fcfaf9;
+  margin-bottom: 15px;
+}
+
+.btn-apple:hover {
+  background-color: #66e2dc;
+}
+
+.btn-android {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fcfaf9;
+  border-radius: 10px;
+}
+
+.btn-android:hover {
+  background-color: #ffb964;
+}
+
+.container-undercard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #191826;
+}
+
+.container-undercard .container-undercard-img {
+  width: 70%;
+}
+
+.container-undercard .container-undercard-img img {
+  width: 100%;
+}
+
+.container-phone {
+  position: absolute;
+  top: 52%;
+  right: 0;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.container-phone img {
+  width: 100%;
+}
+
+.container-title-nav {
+  font-size: 2em;
+  font-weight: 700;
+  font-family: "IBM Plex Sans", sans-serif;
+  padding: 1.5em 0 1.5em 0;
+}
+
+.container-img-nav {
+  position: absolute;
+  top: -250px;
+}
+
+.container-header {
+  font-family: "IBM Plex Sans", sans-serif;
+  margin-bottom: 10em;
+}
+
+.container-header h1 {
+  width: 80%;
+  margin-bottom: 0.8em;
+}
+
+.container-header p {
+  line-height: 130%;
+  font-size: 1.01em;
+}
+
+.container-footer {
+  width: 80%;
+  margin: auto;
+}
+
+.container-footer p:nth-child(1) {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.container-footer p:nth-child(2) {
+  font-family: "IBM Plex Sans", sans-serif;
+  margin-bottom: 2em;
+}
+
+.container-footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin-bottom: 4em;
+}
+
+.container-footer ul li {
+  margin-right: 10px;
+}
+
+.wrapper .section1 {
+  width: 80%;
+  margin: auto;
+}
+
+@media screen and (min-width: 480px) {
+  .wrapper {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 599px) {
+  .bkgrnd {
+    position: absolute;
+    background: url("../../public/assets/bg-main-mobile.png");
+    background-repeat: no-repeat;
+    background-position: -10% -25%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

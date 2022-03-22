@@ -1,0 +1,15 @@
+@mixin pos-ab($top, $right, $bottom, $left, $x, $y) {
+    position: absolute;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+    transform: translate($x, $y);
+}
+
+@mixin background-image($x, $y) {
+    position: absolute;
+    background: url("../../public/assets/bg-main-mobile.png");
+    background-repeat: no-repeat;
+    background-position: $x $y;
+}

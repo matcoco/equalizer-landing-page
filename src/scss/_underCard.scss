@@ -1,0 +1,10 @@
+.container-undercard {
+    @include flex-center;
+    background-color: $bleu-fonce;
+    .container-undercard-img {
+        width: 70%;
+        img {
+            width: 100%;
+        }
+    }
+}

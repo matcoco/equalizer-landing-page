@@ -1,0 +1,28 @@
+@import "_variables";
+@import "_globale";
+@import "_mixins";
+@import "_placeholder";
+@import "_card";
+@import "_button";
+@import "_underCard";
+@import "_phone";
+@import "_nav";
+@import "_header";
+@import "_footer";
+
+.wrapper {
+    .section1 {
+        @include wrapper;
+    }
+
+    @media screen and (min-width: 480px) {
+        @include wrapper;
+    }
+}
+
+.bkgrnd {
+    @media screen and (min-width: 360px) and (max-width :599px) {
+        @include background-image(-10%, -25%);
+    }
+ 
+}

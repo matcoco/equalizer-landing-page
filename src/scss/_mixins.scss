@@ -7,9 +7,9 @@
     transform: translate($x, $y);
 }
 
-@mixin background-image($x, $y) {
+@mixin background-image($url, $x, $y) {
     position: absolute;
-    background: url("../../public/assets/bg-main-mobile.png");
+    background: url($url);
     background-repeat: no-repeat;
     background-position: $x $y;
 }

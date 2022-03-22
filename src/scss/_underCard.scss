@@ -1,10 +1,33 @@
 .container-undercard {
-    @include flex-center;
     background-color: $bleu-fonce;
-    .container-undercard-img {
-        width: 70%;
-        img {
-            width: 100%;
+    border-radius: $border-radius;
+}
+
+
+@media screen and (max-width: $max-mobile) {
+    .container-undercard {
+        @include flex-center;
+        .container-undercard-img {
+            width: 70%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $min-tablet) and (max-width: $max-tablet) {
+    .container-undercard {
+        position: relative;
+        height: 540px;
+
+        .container-undercard-img {
+            position: absolute;
+            top: -40%;
+            transform: translate(65%,50%);
+            img {
+                width: 80%;
+            }
         }
     }
 }

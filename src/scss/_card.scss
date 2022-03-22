@@ -59,3 +59,18 @@
         margin-bottom: 25px!important;
     }
 }
+
+@media screen and (min-width: $min-laptop) and (max-width: $max-laptop) {
+    .container-card {
+        @include flex-center-col;
+        position: absolute;
+        bottom: -51px;
+        left: 400px;
+        z-index: 200;
+        max-width: 350px;
+    }
+
+    .container-price-card {
+        margin-bottom: 25px!important;
+    }
+}

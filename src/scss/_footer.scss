@@ -27,7 +27,7 @@
     }
 }
 
-@media screen and (min-width: $min-tablet) and (max-width: $max-tablet) {
+@media screen and (min-width: $min-tablet) and (max-width: $max-laptop) {
     .container-footer {
         width: 100%;
         @include flex-center-col;
@@ -42,11 +42,8 @@
 
             p {
                 width: 50%;
+                font-size: larger;
             }
-
-   
-
-    
         }
     }
 }

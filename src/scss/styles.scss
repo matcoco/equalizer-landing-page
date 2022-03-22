@@ -46,7 +46,25 @@
 
 @media screen and (min-width: $min-tablet) and (max-width: $max-tablet) {
     .bkgrnd {
-        @include background-image("../../public/assets/bg-main-tablet.png", 70%, -40%);
+        @include background-image("../../public/assets/bg-main-tablet.png", 70%, -70%);
+
+        .container-illustration1-nav {
+            position: absolute;
+            right: -120px;
+            top: -25px;
+        }
+    }
+
+    .section2 {
+        position: relative;
+        margin-bottom: 8em;
+    }
+}
+
+
+@media screen and (min-width: $min-laptop) and (max-width: $max-laptop) {
+    .bkgrnd {
+        @include background-image("../../public/assets/bg-main-desktop.png", 50%, 50%);
 
         .container-illustration1-nav {
             position: absolute;

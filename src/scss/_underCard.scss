@@ -31,3 +31,19 @@
         }
     }
 }
+
+@media screen and (min-width: $min-laptop) and (max-width: $max-laptop) {
+    .container-undercard {
+        position: relative;
+        height: 550px;
+
+        .container-undercard-img {
+            position: absolute;
+            top: -30%;
+            transform: translate(100%,50%);
+            img {
+                width: 80%;
+            }
+        }
+    }
+}

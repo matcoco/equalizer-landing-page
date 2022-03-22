@@ -10,17 +10,21 @@ function App() {
   return (
     <div className='bkgrnd'>
       <Image path={"/assets/bg-pattern-1.svg"} alt={" "} cln={"illustration1-nav"} />
+
       <div className='wrapper'>
+
         <div className='section1'>
           <Nav />
           <Header />
         </div>
+
         <div className='section2'>
           <UnderCard />
           <Card />
         </div>
 
         <Footer />
+        
       </div>
     </div>
 

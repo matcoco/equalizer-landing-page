@@ -47,3 +47,21 @@
         }
     }
 }
+
+
+@media screen and (min-width: $min-desktop) and (max-width: $max-desktop) {
+    .container-header {
+        margin-bottom: 14em;
+
+        p {
+            width: 80%;
+            font-size: larger;
+        }
+
+        h1 {
+            width: 60%;
+            font-size: 3em;
+            margin-bottom: 0.8em;
+        }
+    }
+}

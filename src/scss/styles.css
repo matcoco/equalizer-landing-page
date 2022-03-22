@@ -109,6 +109,29 @@
   }
 }
 
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .container-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    left: 525px;
+    bottom: -95px;
+    z-index: 200;
+    max-width: 350px;
+  }
+  .container-price-card {
+    margin-bottom: 25px !important;
+  }
+}
+
 .btn {
   padding: 15px;
   border: none;
@@ -198,7 +221,7 @@
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1200px) {
   .container-undercard {
     position: relative;
     height: 550px;
@@ -248,7 +271,23 @@
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .container-phone {
     position: absolute;
-    top: 25%;
+    top: 20%;
+    right: 0;
+    bottom: 0;
+    left: 30%;
+    -webkit-transform: translate(-55%, -50%);
+            transform: translate(-55%, -50%);
+  }
+  .container-phone .container-phone-img {
+    width: 50%;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .container-phone {
+    position: absolute;
+    top: 20%;
     right: 0;
     bottom: 0;
     left: 30%;
@@ -319,6 +358,21 @@
   }
 }
 
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .container-header {
+    margin-bottom: 14em;
+  }
+  .container-header p {
+    width: 80%;
+    font-size: larger;
+  }
+  .container-header h1 {
+    width: 60%;
+    font-size: 3em;
+    margin-bottom: 0.8em;
+  }
+}
+
 .container-footer {
   width: 80%;
   margin: auto;
@@ -348,7 +402,7 @@
   margin-right: 10px;
 }
 
-@media screen and (min-width: 481px) and (max-width: 1024px) {
+@media screen and (min-width: 481px) and (max-width: 1200px) {
   .container-footer {
     width: 100%;
     display: -webkit-box;
@@ -431,7 +485,7 @@
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1200px) {
   .bkgrnd {
     position: absolute;
     background: url("../../public/assets/bg-main-desktop.png");
@@ -440,7 +494,7 @@
   }
   .bkgrnd .container-illustration1-nav {
     position: absolute;
-    right: -120px;
+    right: -93px;
     top: -25px;
   }
   .section2 {

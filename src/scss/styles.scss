@@ -62,13 +62,13 @@
 }
 
 
-@media screen and (min-width: $min-laptop) and (max-width: $max-laptop) {
+@media screen and (min-width: $min-laptop) and (max-width: $max-desktop) {
     .bkgrnd {
         @include background-image("../../public/assets/bg-main-desktop.png", 50%, 50%);
 
         .container-illustration1-nav {
             position: absolute;
-            right: -120px;
+            right: -93px;
             top: -25px;
         }
     }

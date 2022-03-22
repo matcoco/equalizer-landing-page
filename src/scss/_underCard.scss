@@ -32,7 +32,7 @@
     }
 }
 
-@media screen and (min-width: $min-laptop) and (max-width: $max-laptop) {
+@media screen and (min-width: $min-laptop) and (max-width: $max-desktop) {
     .container-undercard {
         position: relative;
         height: 550px;

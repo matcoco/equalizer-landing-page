@@ -1,0 +1,14 @@
+@mixin pos-ab($top, $right, $bottom, $left, $x, $y) {
+    position: absolute;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+    transform: translate($x, $y);
+}
+
+@mixin background-image($url, $x, $y, ) {
+    background: url($url);
+    background-repeat: no-repeat;
+    background-position: $x $y;
+}

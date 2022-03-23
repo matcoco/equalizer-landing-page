@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:display=swap");
+
+.container-card {
+    @include flex-center-col;
+   
+    position: relative;
+    bottom: 50px;
+    background-color: $rouge-clair;
+    max-width: 480px;
+    border-radius: $border-radius;
+    .wrap-card {
+        padding: 40px;
+
+        .container-title-card {
+            h1 {
+                color: $blanc;
+                margin-bottom: 10px;
+                font-family: $font-family-principal;
+            }
+        }
+
+        .container-content-card {
+            margin-bottom: 20px;
+            p {
+                color: $blanc;
+                line-height: $line-heigth-tx;
+                font-family: $font-family-principal;
+            }
+        }
+
+        .container-price-card {
+            @include flex;
+            align-items: center;
+            margin-bottom: 70px;
+            font-family: $font-family-principal;
+            p {
+                color: $blanc;
+            }
+
+            .price {
+                font-size: 4em;
+                font-weight: bold;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $min-tablet) and (max-width: $max-tablet) {
+    .container-card {
+        @include flex-center-col;
+        position: absolute;
+        bottom: -72px;
+        left: 269px;
+        z-index: 200;
+        max-width: 350px;
+    }
+
+    .container-price-card {
+        margin-bottom: 25px!important;
+    }
+}
+
+@media screen and (min-width: $min-laptop) and (max-width: $max-laptop) {
+    .container-card {
+        @include flex-center-col;
+        position: absolute;
+        bottom: -51px;
+        left: 400px;
+        z-index: 200;
+        max-width: 350px;
+    }
+
+    .container-price-card {
+        margin-bottom: 25px!important;
+    }
+}
+
+@media screen and (min-width: $min-desktop) and (max-width: $max-desktop) {
+    .container-card {
+        @include flex-center-col;
+        position: absolute;
+        left: 525px;
+        bottom: -95px;
+        z-index: 200;
+        max-width: 350px;
+    }
+
+    .container-price-card {
+        margin-bottom: 25px!important;
+    }
+}
+
+
+@media screen and (min-width: $min-xl) {
+    .container-card {
+        @include flex-center-col;
+        position: absolute;
+        left: 60%;
+        bottom: -95px;
+        z-index: 200;
+        max-width: 350px;
+    }
+
+    .container-price-card {
+        margin-bottom: 25px!important;
+    }
+}

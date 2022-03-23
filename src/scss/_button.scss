@@ -1,0 +1,30 @@
+.btn{
+    padding: 15px;
+    border: none;
+    font-family: $font-family-principal;
+    .container-img-btn {
+        margin-right: 10px;
+    }
+}
+
+.btn-apple{
+    @include flex-center;
+    background-color: $bleu-fonce;
+    border-radius: $border-radius;
+    color: $blanc;
+    margin-bottom: 15px;
+
+    &:hover{
+        background-color: $bleu-turquoise;
+    }
+}
+
+.btn-android{
+    @include flex-center;
+    background-color: $blanc;
+    border-radius: $border-radius;
+
+    &:hover{
+        background-color: $orange-clair;
+    }
+}

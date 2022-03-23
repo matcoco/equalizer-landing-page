@@ -1,0 +1,35 @@
+// colors
+$bleu-turquoise: #66e2dc;
+$rouge-clair: #fa7453;
+$orange-clair: #ffb964;
+$blanc: #fcfaf9;
+$bleu-fonce: #191826;
+
+// dimension - taille police d'écriture
+$font-size-h1: 88px;
+$border-radius: 10px;
+$font-family-principal: "IBM Plex Sans", sans-serif;
+$line-heigth-tx: 130%;
+
+// wrapper value
+$wrap: 90%;
+
+// medias queries
+//mobile
+$min-mobile: 320px;
+$max-mobile: 480px;
+
+//tablets
+$min-tablet: 481px;
+$max-tablet: 768px;
+
+//laptop
+$min-laptop: 769px;
+$max-laptop: 1024px;
+
+//desktop
+$min-desktop: 1025px;
+$max-desktop: 1200px;
+
+//TV - xtra large screen
+$min-xl: 1201px;

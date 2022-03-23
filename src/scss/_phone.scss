@@ -1,0 +1,60 @@
+
+
+
+
+
+@media screen and (max-width: $max-mobile) {
+    .container-phone {
+        @include pos-ab(250px, 0, 0, 50%, -50%, -50%);
+        z-index: 100;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+
+ @media screen and (min-width: $min-tablet) and (max-width: $max-tablet) {
+    .container-phone{
+        @include pos-ab(100px, 0, 0, 50%, -80%, -50%);
+        .phone-img {
+            width: 75%;
+        }
+    }
+}
+
+
+@media screen and (min-width: $min-laptop) and (max-width: $max-laptop) {
+    .container-phone{
+        @include pos-ab(100px, 0, 0, 50%, -80%, -50%);
+        
+        .phone-img {
+            width: 60%;
+            margin: auto;
+        }
+    }
+}
+
+
+@media screen and (min-width: $min-desktop) and (max-width: $max-desktop) {
+    .container-phone{
+        @include pos-ab(20%, 0, 0, 30%, -55%, -50%);
+        
+        .phone-img {
+            width: 50%;
+            margin: auto;
+        }
+    }
+}
+
+
+@media screen and (min-width: $min-xl) {
+    .container-phone{
+        @include pos-ab(20%, 0, 0, 50%, -55%, -50%);
+        
+        .phone-img {
+            width: 40%;
+            margin: auto;
+        }
+    }
+}

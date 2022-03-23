@@ -1,0 +1,85 @@
+.container-header {
+    font-family: $font-family-principal;
+    margin-bottom: 10em;
+
+    p {
+        line-height: $line-heigth-tx;
+        font-size: 1.01em;
+    }
+}
+
+@media screen and (max-width: $max-mobile) {
+    h1 {
+        width: 80%;
+        margin-bottom: 0.8em;
+    }
+}
+
+@media screen and (min-width: $min-tablet) and (max-width: $max-tablet) {
+    .container-header {
+        margin-bottom: 14em;
+
+        p {
+            width: 80%;
+        }
+
+        h1 {
+            width: 60%;
+            font-size: 3em;
+            margin-bottom: 0.8em;
+        }
+    }
+}
+
+@media screen and (min-width: $min-laptop) and (max-width: $max-laptop) {
+    .container-header {
+        margin-bottom: 14em;
+
+        p {
+            width: 60%;
+            font-size: larger;
+        }
+
+        h1 {
+            width: 60%;
+            font-size: 3em;
+            margin-bottom: 0.8em;
+        }
+    }
+}
+
+
+@media screen and (min-width: $min-desktop) and (max-width: $max-desktop) {
+    .container-header {
+        margin-bottom: 14em;
+
+        p {
+            width: 80%;
+            font-size: larger;
+        }
+
+        h1 {
+            width: 60%;
+            font-size: 3em;
+            margin-bottom: 0.8em;
+        }
+    }
+}
+
+
+@media screen and (min-width: $min-xl) {
+    .container-header {
+        margin-bottom: 14em;
+
+        p {
+            width: 60%;
+            font-size: 2em;
+        }
+
+        h1 {
+            width: 60%;
+            font-size: 5em;
+            margin-bottom: 0.8em;
+        }
+    }
+}

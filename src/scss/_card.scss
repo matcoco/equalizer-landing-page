@@ -2,6 +2,7 @@
 
 .container-card {
     @include flex-center-col;
+   
     position: relative;
     bottom: 50px;
     background-color: $rouge-clair;
@@ -49,8 +50,8 @@
     .container-card {
         @include flex-center-col;
         position: absolute;
-        bottom: -51px;
-        left: 200px;
+        bottom: -72px;
+        left: 269px;
         z-index: 200;
         max-width: 350px;
     }
@@ -80,6 +81,22 @@
         @include flex-center-col;
         position: absolute;
         left: 525px;
+        bottom: -95px;
+        z-index: 200;
+        max-width: 350px;
+    }
+
+    .container-price-card {
+        margin-bottom: 25px!important;
+    }
+}
+
+
+@media screen and (min-width: $min-xl) {
+    .container-card {
+        @include flex-center-col;
+        position: absolute;
+        left: 625px;
         bottom: -95px;
         z-index: 200;
         max-width: 350px;

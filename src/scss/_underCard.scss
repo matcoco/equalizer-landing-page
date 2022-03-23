@@ -2,7 +2,9 @@
     background-color: $bleu-fonce;
     border-radius: $border-radius;
 }
-
+.section2 {
+    position: relative;
+}
 
 @media screen and (max-width: $max-mobile) {
     .container-undercard {
@@ -21,10 +23,23 @@
         position: relative;
         height: 540px;
 
-        .container-undercard-img {
+        .undercard-img {
+            @include pos-ab(30%, 0, 0, 50%, -45%, -50%);
+            width: 40%;
+        }
+    }
+}
+
+@media screen and (min-width: $min-laptop) and (max-width: $max-desktop) {
+
+    .container-undercard {
+        position: relative;
+        height: 550px;
+
+        .undercard-img {
             position: absolute;
-            top: -40%;
-            transform: translate(65%,50%);
+            top: -50px;
+            transform: translate(200px, 0);
             img {
                 width: 80%;
             }
@@ -32,15 +47,16 @@
     }
 }
 
-@media screen and (min-width: $min-laptop) and (max-width: $max-desktop) {
+@media screen and (min-width: $min-xl){
+
     .container-undercard {
         position: relative;
         height: 550px;
 
-        .container-undercard-img {
+        .undercard-img {
             position: absolute;
-            top: -30%;
-            transform: translate(100%,50%);
+            top: -50px;
+            transform: translate(450px, 0);
             img {
                 width: 80%;
             }

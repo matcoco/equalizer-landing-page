@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/equalizer-landing-page/precache-manifest.2b75b4a69a9ae5d781e4acd60a6bd6a6.js"
+  "/equalizer-landing-page/precache-manifest.3032aa7c995dcd21023fb4bfe631bf06.js"
 );
 
 workbox.clientsClaim();

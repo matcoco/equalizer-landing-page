@@ -145,7 +145,7 @@
         -ms-flex-pack: center;
             justify-content: center;
     position: absolute;
-    left: 1016px;
+    left: 60%;
     bottom: -95px;
     z-index: 200;
     max-width: 350px;
@@ -203,16 +203,16 @@
   background-color: #ffb964;
 }
 
-.container-undercard {
+.section2 {
+  position: relative;
   background-color: #191826;
   border-radius: 10px;
 }
 
-.section2 {
-  position: relative;
-}
-
 @media screen and (max-width: 480px) {
+  .section2 {
+    margin-bottom: 5em;
+  }
   .container-undercard {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -266,17 +266,21 @@
 }
 
 @media screen and (min-width: 1201px) {
-  .container-undercard {
+  .main-undercard {
+    position: relative;
+    max-width: 1200px;
+  }
+  .main-undercard .container-undercard {
     position: relative;
     height: 550px;
   }
-  .container-undercard .undercard-img {
+  .main-undercard .container-undercard .undercard-img {
     position: absolute;
     top: 27px;
-    -webkit-transform: translate(684px);
-            transform: translate(684px);
+    -webkit-transform: translate(150%);
+            transform: translate(150%);
   }
-  .container-undercard .undercard-img img {
+  .main-undercard .container-undercard .undercard-img img {
     width: 80%;
   }
 }
@@ -563,7 +567,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .bkgrnd {
-    background: url("/assets/bg-main-mobile.png");
+    background: url("/equalizer-landing-page/assets/bg-main-mobile.png");
     background-repeat: no-repeat;
     background-position: -10% -25%;
   }
@@ -571,7 +575,7 @@
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .bkgrnd {
-    background: url("/assets/bg-main-tablet.png");
+    background: url("/equalizer-landing-page/assets/bg-main-tablet.png");
     background-repeat: no-repeat;
     background-position: 70% -70%;
   }
@@ -593,7 +597,7 @@
 
 @media screen and (min-width: 769px) and (max-width: 1200px) {
   .bkgrnd {
-    background: url("/assets/bg-main-desktop.png");
+    background: url("/equalizer-landing-page/assets/bg-main-desktop.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
   }
@@ -615,7 +619,7 @@
 
 @media screen and (min-width: 1201px) {
   .bkgrnd {
-    background: url("/assets/bg-main-desktop.png");
+    background: url("/equalizer-landing-page/assets/bg-main-desktop.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
   }

@@ -96,7 +96,7 @@
     .container-card {
         @include flex-center-col;
         position: absolute;
-        left: 1016px;
+        left: 60%;
         bottom: -95px;
         z-index: 200;
         max-width: 350px;

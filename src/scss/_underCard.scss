@@ -1,12 +1,15 @@
-.container-undercard {
+
+.section2 {
+    position: relative;
     background-color: $bleu-fonce;
     border-radius: $border-radius;
 }
-.section2 {
-    position: relative;
-}
 
 @media screen and (max-width: $max-mobile) {
+    .section2{
+        margin-bottom: 5em;
+    }
+
     .container-undercard {
         @include flex-center;
         .container-undercard-img {
@@ -48,18 +51,22 @@
 }
 
 @media screen and (min-width: $min-xl){
-
-    .container-undercard {
+    .main-undercard{
         position: relative;
-        height: 550px;
-
-        .undercard-img {
-            position: absolute;
-            top: 27px;
-            transform: translate(684px);
-            img {
-                width: 80%;
+        max-width: 1200px;
+        .container-undercard {
+            position: relative;
+            height: 550px;
+    
+            .undercard-img {
+                position: absolute;
+                top: 27px;
+                transform: translate(150%);
+                img {
+                    width: 80%;
+                }
             }
         }
     }
+
 }

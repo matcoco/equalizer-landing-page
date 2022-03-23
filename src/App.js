@@ -17,14 +17,11 @@ function App() {
           <Nav />
           <Header />
         </div>
-
-        <div className='section2'>
-          <UnderCard />
+        <UnderCard>
           <Card />
-        </div>
-
+        </UnderCard>
         <Footer />
-        
+
       </div>
     </div>
 

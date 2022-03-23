@@ -7,8 +7,7 @@
     transform: translate($x, $y);
 }
 
-@mixin background-image($url, $x, $y) {
-    position: absolute;
+@mixin background-image($url, $x, $y, ) {
     background: url($url);
     background-repeat: no-repeat;
     background-position: $x $y;

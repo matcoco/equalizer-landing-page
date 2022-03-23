@@ -1,3 +1,5 @@
+import React from "react"
+
 const Image = ({path, alt, cln}) => {
     return(
         <div className={`container-${cln}`}>

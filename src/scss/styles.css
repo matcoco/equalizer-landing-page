@@ -145,7 +145,7 @@
         -ms-flex-pack: center;
             justify-content: center;
     position: absolute;
-    left: 625px;
+    left: 1016px;
     bottom: -95px;
     z-index: 200;
     max-width: 350px;
@@ -272,9 +272,9 @@
   }
   .container-undercard .undercard-img {
     position: absolute;
-    top: -50px;
-    -webkit-transform: translate(450px, 0);
-            transform: translate(450px, 0);
+    top: 27px;
+    -webkit-transform: translate(684px);
+            transform: translate(684px);
   }
   .container-undercard .undercard-img img {
     width: 80%;
@@ -355,7 +355,7 @@
             transform: translate(-55%, -50%);
   }
   .container-phone .phone-img {
-    width: 45%;
+    width: 40%;
     margin: auto;
   }
 }
@@ -477,6 +477,10 @@
   margin-right: 10px;
 }
 
+.container-footer .footer-content ul li:hover {
+  color: #FA7453;
+}
+
 @media screen and (min-width: 481px) and (max-width: 1200px) {
   .container-footer {
     width: 100%;
@@ -528,9 +532,10 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    margin-left: 7em;
   }
   .container-footer .footer-content p {
-    width: 45%;
+    width: 50%;
     font-size: larger;
   }
 }
@@ -558,7 +563,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .bkgrnd {
-    background: url("../../public/assets/bg-main-mobile.png");
+    background: url("/assets/bg-main-mobile.png");
     background-repeat: no-repeat;
     background-position: -10% -25%;
   }
@@ -566,7 +571,7 @@
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .bkgrnd {
-    background: url("../../public/assets/bg-main-tablet.png");
+    background: url("/assets/bg-main-tablet.png");
     background-repeat: no-repeat;
     background-position: 70% -70%;
   }
@@ -588,7 +593,7 @@
 
 @media screen and (min-width: 769px) and (max-width: 1200px) {
   .bkgrnd {
-    background: url("../../public/assets/bg-main-desktop.png");
+    background: url("/assets/bg-main-desktop.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
   }
@@ -610,7 +615,7 @@
 
 @media screen and (min-width: 1201px) {
   .bkgrnd {
-    background: url("../../public/assets/bg-main-desktop.png");
+    background: url("/assets/bg-main-desktop.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
   }
@@ -626,7 +631,6 @@
   }
   .section2 {
     position: relative;
-    max-width: 1201px;
     margin: auto;
     margin-bottom: 15em;
   }

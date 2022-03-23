@@ -1,3 +1,4 @@
+import React from "react"
 import Button from "../_shared/Button";
 
 const Card = () => {
@@ -15,8 +16,8 @@ const Card = () => {
                     <p className="per-month">/month</p>
                 </div>
                 <div>
-                    <Button icon={'/assets/icon-apple.svg'} text='ios Download' cln_os={'apple'} />
-                    <Button icon={'/assets/icon-android.svg'} text='Android Download' cln_os={'android'} />
+                    <Button icon={'assets/icon-apple.svg'} text='ios Download' cln_os={'apple'} />
+                    <Button icon={'assets/icon-android.svg'} text='Android Download' cln_os={'android'} />
                 </div>
             </div>
 

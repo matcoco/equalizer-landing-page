@@ -1,3 +1,4 @@
+import React from "react"
 import Image from "../_shared/Image";
 
 const UnderCard = ({ children }) => {

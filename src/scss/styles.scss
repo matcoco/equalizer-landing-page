@@ -38,13 +38,13 @@
 
 @media screen and (min-width: $min-mobile) and (max-width: $max-mobile) {
     .bkgrnd {
-        @include background-image("../../public/assets/bg-main-mobile.png", -10%, -25%);
+        @include background-image("/assets/bg-main-mobile.png", -10%, -25%);
     }
 }
 
 @media screen and (min-width: $min-tablet) and (max-width: $max-tablet) {
     .bkgrnd {
-        @include background-image("../../public/assets/bg-main-tablet.png", 70%, -70%);
+        @include background-image("/assets/bg-main-tablet.png", 70%, -70%);
 
         .container-illustration1-nav {
             position: absolute;
@@ -66,7 +66,7 @@
 
 @media screen and (min-width: $min-laptop) and (max-width: $max-desktop) {
     .bkgrnd {
-        @include background-image("../../public/assets/bg-main-desktop.png", 50%, 50%);
+        @include background-image("/assets/bg-main-desktop.png", 50%, 50%);
       
 
         .container-illustration1-nav {
@@ -88,7 +88,7 @@
 
 @media screen and (min-width: $min-xl) {
     .bkgrnd {
-        @include background-image("../../public/assets/bg-main-desktop.png", 50%, 50%);
+        @include background-image("/assets/bg-main-desktop.png", 50%, 50%);
       
 
         .container-illustration1-nav {
@@ -104,7 +104,6 @@
 
      .section2 {
         position: relative;
-        max-width: 1201px;
         margin: auto;
         margin-bottom: 15em;
     }

@@ -1,3 +1,5 @@
+
+import React from "react"
 const Button = ({ icon, text, cln_os }) => {
     return (
         <div className={`btn-${cln_os} btn`}>

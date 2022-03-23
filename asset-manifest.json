@@ -1,18 +1,15 @@
 {
-  "files": {
-    "main.css": "/equalizer-landing-page/static/css/main.d561aea5.css",
-    "main.js": "/equalizer-landing-page/static/js/main.24e4c05c.js",
-    "static/js/787.a10343c0.chunk.js": "/equalizer-landing-page/static/js/787.a10343c0.chunk.js",
-    "static/media/bg-main-desktop.png": "/equalizer-landing-page/static/media/bg-main-desktop.8085941e729a2e4c8077.png",
-    "static/media/bg-main-tablet.png": "/equalizer-landing-page/static/media/bg-main-tablet.25e488fd235ddef4319d.png",
-    "static/media/bg-main-mobile.png": "/equalizer-landing-page/static/media/bg-main-mobile.5c908035d1b50f7aac83.png",
-    "index.html": "/equalizer-landing-page/index.html",
-    "main.d561aea5.css.map": "/equalizer-landing-page/static/css/main.d561aea5.css.map",
-    "main.24e4c05c.js.map": "/equalizer-landing-page/static/js/main.24e4c05c.js.map",
-    "787.a10343c0.chunk.js.map": "/equalizer-landing-page/static/js/787.a10343c0.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.d561aea5.css",
-    "static/js/main.24e4c05c.js"
-  ]
+  "main.css": "/equalizer-landing-page/static/css/main.47ca48c0.chunk.css",
+  "main.js": "/equalizer-landing-page/static/js/main.76aca3e0.chunk.js",
+  "main.js.map": "/equalizer-landing-page/static/js/main.76aca3e0.chunk.js.map",
+  "static/js/1.521dee7d.chunk.js": "/equalizer-landing-page/static/js/1.521dee7d.chunk.js",
+  "static/js/1.521dee7d.chunk.js.map": "/equalizer-landing-page/static/js/1.521dee7d.chunk.js.map",
+  "static/js/2.d400e9fc.chunk.js": "/equalizer-landing-page/static/js/2.d400e9fc.chunk.js",
+  "static/js/2.d400e9fc.chunk.js.map": "/equalizer-landing-page/static/js/2.d400e9fc.chunk.js.map",
+  "runtime~main.js": "/equalizer-landing-page/static/js/runtime~main.26a6711e.js",
+  "runtime~main.js.map": "/equalizer-landing-page/static/js/runtime~main.26a6711e.js.map",
+  "static/css/main.47ca48c0.chunk.css.map": "/equalizer-landing-page/static/css/main.47ca48c0.chunk.css.map",
+  "index.html": "/equalizer-landing-page/index.html",
+  "precache-manifest.9d516d784c3ea8a62a801c953b0287ea.js": "/equalizer-landing-page/precache-manifest.9d516d784c3ea8a62a801c953b0287ea.js",
+  "service-worker.js": "/equalizer-landing-page/service-worker.js"
 }
